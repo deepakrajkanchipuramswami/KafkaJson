@@ -41,6 +41,13 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic input_topic
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic output_topic --from-beginning --formatter kafka.tools.DefaultMessageFormatter --property print.value=true  --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
 
 ****************************************************************************
+*				DOCUMENTATION				   *
+****************************************************************************
+Explanation for the code is provided inside the source code.
+
+Open the ProducerClass.java and StreamsClass.java in any code editor(Notepad++,Visual studio code,Sublime,etc.)
+
+****************************************************************************
 *			TO PERFORM UNIT TESTING				   *
 ****************************************************************************
 1) Perform all the steps in the above code except step 12.
